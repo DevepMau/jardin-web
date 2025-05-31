@@ -16,9 +16,6 @@ function App() {
         <section id="services" style={{ minHeight: '100vh' }}>
           <Services />
         </section>
-        <section id="gallery" style={{ minHeight: '100vh' }}>
-          <h1>Galería</h1>
-        </section>
         <section id="about" style={{ minHeight: '100vh' }}>
           <About />
         </section>
