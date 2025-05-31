@@ -1,6 +1,7 @@
 import Navbar from './components/NavBar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
+import Services from './pages/Services';
 import './App.css';
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
           <Home />
         </section>
         <section id="services" style={{ height: '100vh' }}>
-          <h1>Servicios</h1>
+          <Services />
         </section>
         <section id="gallery" style={{ height: '100vh' }}>
           <h1>Galería</h1>

@@ -5,3 +5,7 @@
 #home {
   scroll-margin-top: 80px; /* o el alto exacto del Navbar */
 }
+
+#services {
+  scroll-margin-top: 80px;
+}
