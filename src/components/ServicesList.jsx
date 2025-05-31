@@ -16,6 +16,7 @@ export default function ServicesList() {
   return (
     <div className="services-container">
       <h2>Nuestros Servicios</h2>
+      <hr />
       <div className="services-grid">
         {services.map((service) => (
           <div
@@ -37,9 +38,11 @@ export default function ServicesList() {
         <div className="service-modal" onClick={handleClose}>
           <div className="modal-content" onClick={(e) => e.stopPropagation()}>
             <img src={selectedService.image} alt={selectedService.title} />
-            <h3>{selectedService.title}</h3>
-            <p>{selectedService.description}</p>
-            <button onClick={handleClose}>Cerrar</button>
+            <div className="modal-overlay">
+                <h3>{selectedService.title}</h3>
+                <p>{selectedService.description}</p>
+            </div>
+            <button className="close-button" onClick={handleClose}>×</button>
           </div>
         </div>
       )}
