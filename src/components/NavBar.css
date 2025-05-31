@@ -1,6 +1,7 @@
 /* src/components/Navbar.css */
 .navbar {
   background-color: rgb(34, 34, 34);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5); /* Sombra para separarlo del fondo */
   padding: 1rem 2rem;
   position: fixed;
   top: 0;
