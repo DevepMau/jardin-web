@@ -1,5 +1,6 @@
 import Navbar from './components/NavBar';
 import Footer from './components/Footer';
+import Home from './pages/Home';
 import './App.css';
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
       <Navbar />
       <div style={{ paddingTop: '80px' }}>
         <section id="home" style={{ height: '100vh' }}>
-          <h1>Bienvenido a Tu Jardín</h1>
+          <Home />
         </section>
         <section id="services" style={{ height: '100vh' }}>
           <h1>Servicios</h1>
