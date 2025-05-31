@@ -2,6 +2,7 @@ import Navbar from './components/NavBar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Services from './pages/Services';
+import About from './pages/About';
 import './App.css';
 
 function App() {
@@ -9,19 +10,19 @@ function App() {
     <div className="App">
       <Navbar />
       <div style={{ paddingTop: '80px' }}>
-        <section id="home" style={{ height: '100vh' }}>
+        <section id="home" style={{ minHeight: '100vh' }}>
           <Home />
         </section>
-        <section id="services" style={{ height: '100vh' }}>
+        <section id="services" style={{ minHeight: '100vh' }}>
           <Services />
         </section>
-        <section id="gallery" style={{ height: '100vh' }}>
+        <section id="gallery" style={{ minHeight: '100vh' }}>
           <h1>Galería</h1>
         </section>
-        <section id="about" style={{ height: '100vh' }}>
-          <h1>Sobre Nosotros</h1>
+        <section id="about" style={{ minHeight: '100vh' }}>
+          <About />
         </section>
-        <section id="contact" style={{ height: '100vh' }}>
+        <section id="contact" style={{ minHeight: '100vh' }}>
           <h1>Contacto</h1>
         </section>
       </div>

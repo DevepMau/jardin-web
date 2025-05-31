@@ -1,0 +1,97 @@
+.about-container {
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+/* Sección Hero */
+.about-hero {
+  position: relative;
+  height: 300px; /* Altura fija para que sea "parte" de la imagen */
+  background: url('../assets/family.jpg') center center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-hero h1 {
+  position: absolute;
+  color: white;
+  font-size: 3rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+/* Sección descripción */
+.about-description {
+  display: flex;
+  gap: 2rem;
+  padding: 3rem 5rem;
+  align-items: center;
+}
+
+.about-description .text {
+  flex: 1;
+  font-size: 1.4rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-description p{
+    text-align: justify;
+}
+
+.about-description hr {
+  margin: 20px;
+  margin-bottom: 30px;
+}
+
+.about-description h2{
+  font-size: 2.2em;
+  color: #f0a500; 
+  margin-bottom: 10px;
+}
+
+.about-description .image {
+  flex: 1;
+}
+
+.about-description img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Sección valores */
+.about-values {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3rem 5rem;
+  text-align: center;
+}
+
+.about-values h2 {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+}
+
+.values-list {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.value-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 150px;
+}
+
+.value-item img {
+  width: 60px;
+  margin-bottom: 1rem;
+}
+
+.value-item h3 {
+  font-size: 1.2rem;
+  color: #f0a500; /* Puedes usar un color acorde a tu diseño */
+}
