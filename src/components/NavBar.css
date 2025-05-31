@@ -8,7 +8,20 @@
   z-index: 100;
 }
 
-.navbar ul {
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  padding: 0 1rem; /* agrega esto */
+  width: 100%;
+}
+
+.navbar-logo img {
+  height: 40px;
+}
+
+.navbar-links ul {
   list-style: none;
   display: flex;
   justify-content: center;
