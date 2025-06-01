@@ -3,6 +3,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Services from './pages/Services';
 import About from './pages/About';
+import Contact from './pages/Contact';
 import './App.css';
 
 function App() {
@@ -20,7 +21,7 @@ function App() {
           <About />
         </section>
         <section id="contact" style={{ minHeight: '100vh' }}>
-          <h1>Contacto</h1>
+          <Contact />
         </section>
       </div>
       <Footer />
