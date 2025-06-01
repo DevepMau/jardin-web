@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css';
-import groupPhoto from '../assets/group-photo.jpg';  // Imagen del grupo de trabajadores
+import groupPhoto from '../assets/imageAbout/team.jpg'; 
+import missionPhoo from '../assets/imageAbout/mission.jpg';
 import confianzaIcon from '../assets/fruit.png';
 import compromisoIcon from '../assets/fruit.png';
 import calidadIcon from '../assets/fruit.png';
@@ -18,10 +19,11 @@ export default function About() {
       <section className="about-description">
         <div className="text">
           <hr/>
-          <h2>Quiénes somos</h2>
+          <h2>¿Quiénes somos?</h2>
           <p>
-            Somos un emprendimiento familiar dedicado al cuidado y mantenimiento integral de jardines y espacios exteriores. 
-            Con años de experiencia, nuestro equipo está comprometido a brindar servicios de calidad con pasión y profesionalismo.
+            El Santy es un emprendimiento familiar dedicado al corte de césped, podas menores y mantenimiento de jardines. 
+            Nos enfocamos en brindar un servicio responsable, prolijo y con cercanía, cuidando cada espacio verde con respeto 
+            por la naturaleza y el trabajo bien hecho.
           </p>
           <hr/>
         </div>
@@ -30,7 +32,27 @@ export default function About() {
         </div>
       </section>
 
-      {/* Tercera sección: valores */}
+      {/* Tercera sección: descripción + foto mision */}
+      <section className="about-mision">
+        <div className="image">
+          <img src={missionPhoo} alt="Equipo de trabajo" />
+        </div>
+        <div className="text">
+          <hr/>
+          <h2>Mision/Vision</h2>
+          <p>
+            En El Santy, cuidamos tu patio como si fuera el nuestro. Nos dedicamos con ganas a cortar el pasto, 
+            podar y dejar los espacios verdes bien prolijos, para que vos puedas disfrutar sin preocuparte.
+          </p>
+          <p>
+            Queremos ser la opción número uno del barrio cuando alguien piense en cortar el pasto o mantener su jardín. 
+            Crecer de a poco, con trabajo honesto, buena onda y haciendo bien las cosas.
+          </p>
+          <hr/>
+        </div>
+      </section>
+
+      {/* Cuarta sección: valores */}
       <section className="about-values">
         <h2>Nuestros Valores</h2>
         <div className="values-list">
