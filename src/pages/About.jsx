@@ -63,7 +63,8 @@ export default function About() {
 
       {/* Tercera sección: valores */}
       <section className="about-values">
-        <h2>Nuestros Valores</h2>
+        <h2>NUESTROS VALORES</h2>
+        <hr />
         <div className="values-list">
           <div className="value-item">
             <div className='item-content'>

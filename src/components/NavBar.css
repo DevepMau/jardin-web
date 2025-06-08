@@ -5,7 +5,7 @@
   padding: 1rem 2rem;
   position: fixed;
   top: 0;
-  width: 95%;
+  width: 100%;
   z-index: 100;
 }
 
@@ -15,7 +15,7 @@
   align-items: center;
   max-width: 1400px;
   padding: 0 1rem; /* agrega esto */
-  width: 100%;
+  width: 95%;
 }
 
 .navbar-logo img {

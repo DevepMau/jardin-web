@@ -1,6 +1,5 @@
 .about-container {
   color: white;
-  font-family: Arial, sans-serif;
 }
 
 /* Sección Hero */
@@ -30,7 +29,8 @@
   display: flex;
   gap: 0.5rem;
   align-items: center;
-  margin-left: 2%;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .about-body .text {
@@ -65,35 +65,41 @@
 }
 
 .about-description {
-  background-color: rgba(85,85,85, 0.8);
+  flex: 1;
+  background-color: rgba(85,85,85, 0.9);
   box-shadow: 0 3px 9px rgba(0,0,0,0.5);
   border-radius: 15px;
   padding: 10px;
   margin-top: 5%;
   margin-bottom: 5%;
+  min-width: 40%;
   max-width: 40%;
   align-items: center;
 }
 
 .about-mision{
+  flex: 1;
   background-color: rgba(45,45,45, 0.9);
   box-shadow: 0 3px 9px rgba(0,0,0,0.5);
   border-radius: 15px;
   padding: 15px;
   margin-top: 5%;
   margin-bottom: 5%;
+  min-width: 25%;
   max-width: 25%;
   min-height: 550px;
   align-items: center;
 }
 
 .about-vision{
+  flex: 1;
   background-color: rgba(45,45,45, 0.9);
   box-shadow: 0 3px 9px rgba(0,0,0,0.5);
   border-radius: 15px;
   padding: 15px;
   margin-top: 5%;
   margin-bottom: 5%;
+  min-width: 25%;
   max-width: 25%;
   min-height: 550px;
   align-items: center;
@@ -113,7 +119,6 @@
 
 /* Sección valores */
 .about-values {
-  background-color: rgba(0, 0, 0, 0.5);
   padding: 3rem 5rem;
   text-align: center;
 }
@@ -125,18 +130,21 @@
 
 .values-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
 }
 
 .value-item {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 150px;
-  background-color: rgba(55, 55, 55, 0.8);
+  background-color: rgba(75, 75, 75, 0.9);
   min-width: 200px;
   height: 450px;
+  border-radius: 10px;
 }
 
 .item-content {
