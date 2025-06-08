@@ -20,7 +20,7 @@ export default function About() {
         {/* Tercera sección: seccion mision / seccion vision */}
         <section className="about-mision">
           <div className="text">
-            <h2>Mision</h2>
+            <h2>MISION</h2>
             <img src={mision} alt="Icono de mision" />
             <p>
               En El Santy, cuidamos tu patio como si fuera el nuestro. Nos dedicamos con ganas a cortar el pasto, 
@@ -32,7 +32,7 @@ export default function About() {
         {/* Segunda sección: descripción + foto grupo */}
         <section className="about-description">
           <div className="text">
-            <h2>¿Quiénes somos?</h2>
+            <h2>EQUIPO</h2>
             <p>
               El Santy es un emprendimiento familiar dedicado al corte de césped, podas menores y mantenimiento de jardines. 
               Nos enfocamos en brindar un servicio responsable, prolijo y con cercanía, cuidando cada espacio verde con respeto 
@@ -47,7 +47,7 @@ export default function About() {
         {/* Tercera sección: seccion mision / seccion vision */}
         <section className="about-vision">
           <div className="text">
-            <h2>Vision</h2>
+            <h2>VISION</h2>
             <img src={vision} alt="Icono de vision" />
             <p>
               Queremos ser la opción número uno del barrio cuando alguien piense en cortar el pasto o mantener su jardín. 
