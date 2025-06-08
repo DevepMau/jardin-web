@@ -7,7 +7,8 @@
 .about-hero {
   position: relative;
   height: 600px; /* Altura fija para que sea "parte" de la imagen */
-  background: url('../assets/imageAbout/banner.jpg'),  center center/cover no-repeat;
+  background: url('../assets/imageAbout/banner.jpg') no-repeat center top;
+  background-size: cover;
   box-shadow: 0 3px 9px rgba(0,0,0,0.8);
   display: flex;
   align-items: center;
@@ -23,23 +24,13 @@
   border-radius: 5px;
 }
 
+/* Sección body */
+
 .about-body {
   display: flex;
   gap: 0.5rem;
   align-items: center;
   margin-left: 2%;
-}
-
-/* Sección descripción */
-.about-description {
-  background-color: rgba(85,85,85, 0.8);
-  box-shadow: 0 3px 9px rgba(0,0,0,0.5);
-  border-radius: 15px;
-  padding: 10px;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  max-width: 40%;
-  align-items: center;
 }
 
 .about-body .text {
@@ -71,6 +62,17 @@
   border-radius: 10px;
   object-fit: cover;
   margin-bottom: 5%;
+}
+
+.about-description {
+  background-color: rgba(85,85,85, 0.8);
+  box-shadow: 0 3px 9px rgba(0,0,0,0.5);
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  max-width: 40%;
+  align-items: center;
 }
 
 .about-mision{
@@ -124,7 +126,7 @@
 .values-list {
   display: flex;
   justify-content: center;
-  gap: 4rem;
+  gap: 1rem;
 }
 
 .value-item {
@@ -132,14 +134,27 @@
   flex-direction: column;
   align-items: center;
   max-width: 150px;
+  background-color: rgba(55, 55, 55, 0.8);
+  min-width: 200px;
+  height: 450px;
+}
+
+.item-content {
+  padding: 15%;
 }
 
 .value-item img {
-  width: 60px;
+  width: 100%;
   margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .value-item h3 {
-  font-size: 1.2rem;
-  color: #f0a500; /* Puedes usar un color acorde a tu diseño */
+  font-size: 1.5rem;
+  color: #f0a500;
+}
+
+.value-item p{
+  text-align: center;
+  line-height: 1.2;
 }
