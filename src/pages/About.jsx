@@ -18,14 +18,12 @@ export default function About() {
       {/* Segunda sección: descripción + foto grupo */}
       <section className="about-description">
         <div className="text">
-          <hr/>
           <h2>¿Quiénes somos?</h2>
           <p>
             El Santy es un emprendimiento familiar dedicado al corte de césped, podas menores y mantenimiento de jardines. 
             Nos enfocamos en brindar un servicio responsable, prolijo y con cercanía, cuidando cada espacio verde con respeto 
             por la naturaleza y el trabajo bien hecho.
           </p>
-          <hr/>
         </div>
         <div className="image">
           <img src={groupPhoto} alt="Equipo de trabajo" />
