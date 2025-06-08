@@ -7,7 +7,8 @@
 .about-hero {
   position: relative;
   height: 600px; /* Altura fija para que sea "parte" de la imagen */
-  background: url('../assets/imageAbout/banner.jpg') center center/cover no-repeat;
+  background: url('../assets/imageAbout/banner.jpg'),  center center/cover no-repeat;
+  box-shadow: 0 3px 9px rgba(0,0,0,0.8);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,19 +23,26 @@
   border-radius: 5px;
 }
 
+.about-body {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-left: 2%;
+}
+
 /* Sección descripción */
 .about-description {
-  background-color: rgba(0,0,0, 0.3);
+  background-color: rgba(85,85,85, 0.8);
+  box-shadow: 0 3px 9px rgba(0,0,0,0.5);
   border-radius: 15px;
   padding: 10px;
-  margin-left: 25%;
   margin-top: 5%;
   margin-bottom: 5%;
-  max-width: 50%;
+  max-width: 40%;
   align-items: center;
 }
 
-.about-description .text {
+.about-body .text {
   font-size: 1.2rem;
   line-height: 1.6;
   margin-bottom: 10%;
@@ -42,64 +50,61 @@
   max-width: 90%;
 }
 
-.about-description p{
+.about-body p{
     text-align: justify;
 }
 
-.about-description hr {
+.about-body hr {
   margin: 20px;
   margin-bottom: 30px;
 }
 
-.about-description h2{
+.about-body h2{
   font-size: 1.8em;
   color: #f0a500; 
+  margin-top: 10%;
   margin-bottom: 10px;
 }
 
-.about-description img {
+.about-body img {
   width: 90%;
   border-radius: 10px;
   object-fit: cover;
   margin-bottom: 5%;
 }
 
-/* Sección Mision */
-.about-mision {
-  display: flex;
-  gap: 2rem;
-  padding: 3rem 5rem;
+.about-mision{
+  background-color: rgba(45,45,45, 0.9);
+  box-shadow: 0 3px 9px rgba(0,0,0,0.5);
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  max-width: 25%;
+  min-height: 550px;
   align-items: center;
 }
 
-.about-mision .text {
-  flex: 1;
-  font-size: 1.4rem;
-  line-height: 1.6;
-  margin-bottom: 20px;
-}
-
-.about-mision p{
-    text-align: justify;
-}
-
-.about-mision hr {
-  margin: 20px;
-  margin-bottom: 30px;
-}
-
-.about-mision h2{
-  font-size: 2.2em;
-  color: #f0a500; 
-  margin-bottom: 10px;
-}
-
-.about-mision .image {
-  flex: 1;
+.about-vision{
+  background-color: rgba(45,45,45, 0.9);
+  box-shadow: 0 3px 9px rgba(0,0,0,0.5);
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  max-width: 25%;
+  min-height: 550px;
+  align-items: center;
 }
 
 .about-mision img {
-  width: 90%;
+  width: 50%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.about-vision img {
+  width: 50%;
   border-radius: 10px;
   object-fit: cover;
 }
