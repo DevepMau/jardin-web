@@ -1,28 +1,44 @@
-.contact-header {
+.contact-data {
   position: relative;
-  width: 100%;
-  height: 400px;
-  overflow: hidden;
+  background-color: rgba(23, 23, 23, 1);
+  margin: auto;
+  max-width: 600px;
+  border-radius: 15px;
 }
 
-.contact-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 2;
-  width: 40%;
-  margin-left: 30%;
-  height: 100%;
-  padding: 2rem;
-  color: white;
-  text-align: center;
+.contact-data img{
+    padding: 1rem;
 }
 
-.contact-overlay h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-  color: #f0a500;
+.data-nombre{
+  height: 100px;
+  margin-bottom: 10px;
 }
+
+.contact-data .content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-data ul {
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.contact-data li{
+  list-style: none;
+}
+
+.contact-data .content img{
+  height: 35px;
+}
+
+.contact-data .content p{
+  font-size: 1.5rem;
+}
+
+/* Formulario */
 
 .contact-form-section {
   padding: 3rem;
