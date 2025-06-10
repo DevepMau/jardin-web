@@ -12,7 +12,7 @@ export default function Contact() {
   return (
     <div class="contact-container">
       <div className='contact-data'>
-        <h1>¡CONTACTANOS!</h1>
+        <h1>CONTACTANOS</h1>
         <hr />
         <ul>
           <li><img src={logo} alt="Logo" className='data-logo'/></li>
@@ -38,10 +38,12 @@ export default function Contact() {
         </ul>
       </div>
     <div class="contact-form-section">
-      <h2>Pedí tu presupuesto sin compromiso</h2>
+      <h1>¡PEDI TU PRESUPUESTO!</h1>
       <form id="contact-form">
         <input type="text" name="nombre" placeholder="Tu nombre" required />
         <input type="email" name="email" placeholder="Tu email" required />
+        <input type="text" name="localidad" placeholder="Localidad donde vives" />
+        <input type="text" name="direccion" placeholder="Tu direccion" />
         <textarea name="mensaje" placeholder="Contanos qué necesitás" required></textarea>
         <button type="submit">Enviar</button>
       </form>
