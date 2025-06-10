@@ -39,7 +39,7 @@ export default function Contact() {
       </div>
     <div class="contact-form-section">
       <h1>¡PEDI TU PRESUPUESTO!</h1>
-      <form id="contact-form">
+      <form action="https://formsubmit.co/servicioselsanty@gmail.com" method="POST" id="contact-form">
         <input type="text" name="nombre" placeholder="Tu nombre" required />
         <input type="email" name="email" placeholder="Tu email" required />
         <input type="text" name="localidad" placeholder="Localidad donde vives" />
