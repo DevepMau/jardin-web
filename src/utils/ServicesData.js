@@ -20,7 +20,37 @@ const services = [
     title: 'Reparacion en general',
     image: electroRepair,
     description: 'Campañas efectivas en redes sociales, Google Ads y más.'
-  }
+  },
+  {
+    id: 4,
+    title: 'Arreglos de soldadura',
+    image: electroRepair,
+    description: 'Campañas efectivas en redes sociales, Google Ads y más.'
+  },
+  {
+    id: 5,
+    title: 'Limpieza de lozas',
+    image: electroRepair,
+    description: 'Campañas efectivas en redes sociales, Google Ads y más.'
+  },
+  {
+    id: 6,
+    title: 'Colocacion de ceramicos',
+    image: electroRepair,
+    description: 'Campañas efectivas en redes sociales, Google Ads y más.'
+  },
+  {
+    id: 7,
+    title: 'Cuidado de las flores',
+    image: electroRepair,
+    description: 'Campañas efectivas en redes sociales, Google Ads y más.'
+  },
+  {
+    id: 8,
+    title: 'Limpieza de canaletas',
+    image: electroRepair,
+    description: 'Campañas efectivas en redes sociales, Google Ads y más.'
+  },
 ];
 
 export default services;
