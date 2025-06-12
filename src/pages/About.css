@@ -76,6 +76,7 @@
   min-width: 40%;
   max-width: 40%;
   align-items: center;
+  transition: transform 0.2s ease;
 }
 
 .about-mision{
@@ -90,6 +91,7 @@
   max-width: 25%;
   min-height: 550px;
   align-items: center;
+  transition: transform 0.2s ease;
 }
 
 .about-vision{
@@ -104,6 +106,13 @@
   max-width: 25%;
   min-height: 550px;
   align-items: center;
+  transition: transform 0.2s ease;
+}
+
+.about-description:hover,
+.about-mision:hover,
+.about-vision:hover {
+  transform: scale(1.05);
 }
 
 .about-mision img {
@@ -146,6 +155,12 @@
   min-width: 200px;
   height: 450px;
   border-radius: 10px;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.value-item:hover {
+  background-color: rgba(45, 45, 45, 1);
+  transform: scale(1.09);
 }
 
 .item-content {
