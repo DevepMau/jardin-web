@@ -119,3 +119,29 @@
 .close-button:hover {
   transform: scale(2);
 }
+
+/* Para moviles */
+
+@media (max-width: 768px) {
+  .services-container {
+    padding: 1rem;
+  }
+
+  .services-grid {
+    max-width: 100%;
+    margin: 0;
+    grid-template-columns: 1fr;
+  }
+
+  .card-image {
+    height: 250px; /* más corto en móviles */
+  }
+
+  .modal-overlay {
+    padding: 1rem;
+  }
+
+  .modal-content h3 {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,7 @@
+@media (max-width: 768px) {
+  .services-page {
+    flex-direction: column;
+    padding: 2rem 6rem;
+    gap: 20px;
+  }
+}
