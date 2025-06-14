@@ -65,6 +65,14 @@
   background-color: #66bb6a;
 }
 
+/* Estilos para escritorio */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  margin-right: 10%;
+  color: white;
+}
+
 /* Estilos para pantallas pequeñas */
 @media (max-width: 768px) {
   .navbar-links {
@@ -96,11 +104,4 @@
   .btn-budget button {
     width: 100%;
   }
-}
-
-/* Estilos para escritorio */
-.hamburger {
-  font-size: 2rem;
-  margin-right: 10%;
-  color: white;
 }
