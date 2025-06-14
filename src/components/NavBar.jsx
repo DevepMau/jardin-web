@@ -7,7 +7,9 @@ export default function NavBar() {
     <nav className="navbar">
         <div className='navbar-container'>
             <div className='navbar-logo'>
-                <img src={logo} alt="Logo" />
+                <a href="#home">
+                    <img src={logo} alt="Logo" />
+                </a>
             </div>
             <div className='navbar-links'>
                 <ul>

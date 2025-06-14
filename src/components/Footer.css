@@ -1,6 +1,6 @@
 /* src/components/Footer.css */
 .footer {
-  background-color: rgb(34, 34, 34);
+  background-color: rgba(29, 29, 29, 0.95);
   box-shadow: 0 -2px 8px rgba(0,0,0,0.5); /* Sombra arriba */
   color: white;
   text-align: center;
