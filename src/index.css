@@ -2,10 +2,10 @@ body {
 
   background: linear-gradient(
     to left,
-    rgba(34, 34, 34, 1) 0%,
-    rgba(34, 34, 34, 1) 30%,
-    rgba(34, 34, 34, 0.9) 60%,
-    rgba(34, 34, 34, 0.8) 100%
+    rgba(44, 44, 44, 1) 0%,
+    rgba(44, 44, 44, 1) 30%,
+    rgba(44, 44, 44, 0.9) 60%,
+    rgba(44, 44, 44, 0.8) 100%
     ) ,url('./assets/background.jpg');
   background-size: cover;
   background-position: center;

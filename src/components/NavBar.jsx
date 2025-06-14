@@ -15,6 +15,11 @@ export default function NavBar() {
                     <li><a href="#services">Servicios</a></li>
                     <li><a href="#about">Nosotros</a></li>
                     <li><a href="#contact">Contacto</a></li>
+                    <li>
+                        <a className='btn-budget' href="#form">
+                            <button>Presupuesto</button>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>

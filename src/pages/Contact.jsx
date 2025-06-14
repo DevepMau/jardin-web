@@ -52,7 +52,7 @@ export default function Contact() {
           </li>
         </ul>
         </div>
-        <div class="contact-form-section">
+        <div id='form' class="contact-form-section">
           <h1>¡PEDI TU PRESUPUESTO!</h1>
           <form action="https://formsubmit.co/servicioselsanty@gmail.com" method="POST" id="contact-form">
             <h3>Nombre completo</h3>

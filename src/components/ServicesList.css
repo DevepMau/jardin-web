@@ -1,7 +1,7 @@
 .services-container {
   padding: 2rem;
   color: white;
-  background-color: rgba(34, 34, 34, 1); /* semi-transparente si lo ponés sobre imagen */
+  background-color: rgba(44, 44, 44, 1); /* semi-transparente si lo ponés sobre imagen */
 }
 
 .services-container hr {

@@ -14,6 +14,14 @@ export default function Home() {
                 corte de césped, poda de árboles y mantenimiento general.
             </p>
             <hr />
+            <div className='btn-container-home'>
+              <a className='btn-budget' href="#form">
+                <button>Presupuesto</button>
+              </a>
+              <a className='btn-services' href="#list">
+                <button>Servicios</button>
+              </a>
+            </div>
         </div>
         <div className="slider-section">
           <ImageSlider />

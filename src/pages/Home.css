@@ -41,6 +41,28 @@
   min-width: 300px;
 }
 
+.btn-container-home {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.btn-services button {
+  background-color: #f0a500;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.8rem;
+  border-radius: 10px;
+  transition: background-color 0.5s ease;
+  min-width: 130px;
+  cursor: pointer;
+}
+
+.btn-services button:hover {
+  background-color: #66bb6a;
+}
+
 /* Responsivo para móviles */
 @media (max-width: 768px) {
   .home-container {

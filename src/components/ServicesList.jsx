@@ -14,7 +14,7 @@ export default function ServicesList() {
   };
 
   return (
-    <div className="services-container">
+    <div id='list' className="services-container">
       <div className="services-grid">
         {services.map((service) => (
           <div
