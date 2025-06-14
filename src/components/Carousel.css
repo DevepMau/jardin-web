@@ -1,0 +1,77 @@
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  margin: auto;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease;
+  gap: 20px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.card {
+  flex: 0 0 400px;
+  transform: scale(0.9);
+  transition: transform 0.5s ease, opacity 0.5s;
+  opacity: 0.6;
+  background-color: rgba(24, 24, 24, 1);
+  border-radius: 20px;
+}
+
+.card.active {
+  transform: scale(1.1);
+  background-color: rgba(75, 75, 75, 1);
+  opacity: 1;
+}
+
+.carousel-btn {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  padding: 10px;
+  z-index: 2;
+  transition: transform 0.2s ease;
+}
+
+.carousel-btn:hover {
+    transform: scale(2);
+}
+
+.carousel h2{
+    font-size: 1.8rem;
+    color: #f0a500;
+    padding-top: 30px; 
+}
+
+.carousel p{
+    font-size: 1.2rem;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.carousel-mision, .carousel-vision {
+    margin: 2rem;
+    img{
+        height: 200px;
+        margin-bottom: 10%;
+        margin-top: 10%;
+    }
+}
+
+.carousel-description {
+    margin: 2rem;
+    img{
+        height: 300px;
+        border-radius: 15px;
+    }
+}
