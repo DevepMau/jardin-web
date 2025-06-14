@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react';
 import './NavBar.css';
 import logo from '../assets/logo.png';
 
-export default function NavBar() {
+export default function NavBar () {
+
+    const [menuOpen, setMenuOpen] = useState(false);
+
   return (
     <nav className="navbar">
         <div className='navbar-container'>
@@ -11,7 +14,10 @@ export default function NavBar() {
                     <img src={logo} alt="Logo" />
                 </a>
             </div>
-            <div className='navbar-links'>
+            <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
+            ☰
+            </div>
+            <div className={`navbar-links ${menuOpen ? 'open' : ''}`}>
                 <ul>
                     <li><a href="#home">Inicio</a></li>
                     <li><a href="#services">Servicios</a></li>
