@@ -106,13 +106,14 @@
   position: absolute;
   top: 1rem;
   right: 1rem;
-  background: transparent;
+  background-color: rgba(0, 0, 0, 0.4);
   border: none;
   font-size: 2rem;
-  color: #222;
+  color:  white;
   cursor: pointer;
   z-index: 1000;
   transition: transform 0.2s ease;
+  border-radius: 5px;
 }
 
 .close-button:hover {
