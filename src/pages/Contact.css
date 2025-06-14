@@ -28,39 +28,39 @@
   );
 }
 
-.section-1 {
+.introduction {
   margin-top: 0;
   background-color: rgba(34, 34, 34, 1);
 }
 
-.section-1 .invite{
+.introduction .invite{
   display: flex;
   align-items: start;
   justify-content: center;
   text-align: justify;
 }
 
-.section-1 .invite .invite-1 {
+.introduction .invite .col1 {
   flex: 1;
 }
 
-.section-1 .invite .invite-2 {
+.introduction .invite .col2 {
   flex: 1;
 }
 
-.section-1 hr {
+.introduction hr {
   max-width: 50%;
   margin-bottom: 20px;
 }
 
-.section-1 h2 {
+.introduction h2 {
   color: #f0a500;
   font-size: 2.3rem;
   margin-top: 0;
   padding-top: 2rem
 }
 
-.section-1 p {
+.introduction p {
   font-size: 1.1rem;
   max-width: 575px;
   padding: 1rem;
@@ -186,4 +186,9 @@
   border: none;
   border-radius: 8px;
   cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.contact-form-section button:hover {
+  background-color: #66bb6a
 }

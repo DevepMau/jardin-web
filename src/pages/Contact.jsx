@@ -12,16 +12,16 @@ export default function Contact() {
   return (
     <div class="contact-container">
       <div className='top-separator' />
-      <div className='section-1'>
+      <div className='introduction'>
         <h2>CONTACTAME</h2>
         <hr />
         <div className='invite'>
-          <p className='invite-1'>
+          <p className='col1'>
           Estamos para ayudarte. Podés comunicarte con nosotros a través de 
           WhatsApp, correo electrónico o 
           Instagram, y con gusto responderemos todas tus consultas.
           </p>
-          <p className='invite-2'>
+          <p className='col2'>
           También podés completar el siguiente formulario para solicitar un 
           <strong> presupuesto sin compromiso</strong>. ¡Te responderemos lo antes posible!
           </p>
