@@ -63,24 +63,30 @@
   background-color: #66bb6a;
 }
 
-/* Responsivo para móviles */
 @media (max-width: 768px) {
   .home-container {
     flex-direction: column;
-    align-items: stretch;
+    padding: 2rem 6rem;
+    gap: 20px;
   }
 
-  .text-section,
-  .slider-section {
-    width: 100%;
-  }
-
-  .text-section img {
-    margin: 0 auto 20px;
-  }
-
-  .text-section h1,
-  .text-section p {
+  .text-section h1 {
+    font-size: 2em;
     text-align: center;
+  }
+
+  .text-section p {
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  .btn-container-home {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn-services button {
+    width: 100%;
+    max-width: 250px;
   }
 }
