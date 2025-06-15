@@ -193,6 +193,11 @@
   background-color: #66bb6a
 }
 
+.contact-form-section input,
+.contact-form-section textarea {
+  font-family: inherit;
+}
+
 /* Diseño para moviles */
 
 @media (max-width: 768px) {

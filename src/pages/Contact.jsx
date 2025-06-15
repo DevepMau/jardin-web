@@ -62,7 +62,7 @@ export default function Contact() {
             <h3>Telefono</h3>
             <input type="number" name="telefono" required />
             <h3>Asunto</h3>
-            <input type="text" name="nombre" placeholder='¿Que servicio buscas?' required />
+            <input type="text" name="asunto" placeholder='¿Que servicio buscas?' required />
             <h3>Mensaje</h3>
             <textarea name="mensaje" placeholder="Contanos qué necesitás" required></textarea>
             <input type="hidden" name="_next" value="http://localhost:3000"></input>
