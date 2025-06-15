@@ -89,3 +89,55 @@
   text-align: center;
   line-height: 1.2;
 }
+
+/* diseño responsivo */
+
+@media (max-width: 768px) {
+  .about-hero {
+    height: 300px;
+    background-position: center;
+  }
+
+  .about-hero h1 {
+    font-size: 2rem;
+    top: 10%;
+    text-align: center;
+  }
+
+  .about-body {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  .about-values {
+    padding: 2rem 1rem;
+  }
+
+  .about-values h2 {
+    font-size: 1.8rem;
+  }
+
+  .value-item {
+    max-width: 90%;
+    height: auto;
+    padding-bottom: 1rem;
+  }
+
+  .value-item img {
+    max-width: 80%;
+    height: auto;
+  }
+
+  .item-content {
+    padding: 1rem;
+  }
+
+  .value-item h3 {
+    font-size: 1.3rem;
+  }
+
+  .value-item p {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+}

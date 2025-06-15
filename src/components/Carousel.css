@@ -75,3 +75,79 @@
         border-radius: 15px;
     }
 }
+
+/* Diseño responsivo */
+
+@media (max-width: 768px) {
+  .carousel-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carousel {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .card {
+    display: none;
+  }
+
+  .card.active {
+    display: block;
+    transform: scale(1);
+    opacity: 1;
+    width: 90vw;
+    margin: 0 auto;
+  }
+
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    padding: 0.5rem 1rem;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 50%;
+    z-index: 10;
+  }
+
+  .carousel-btn:hover {
+    transform: none;
+}
+
+  .carousel-btn.left {
+    left: 10px;
+  }
+
+  .carousel-btn.right {
+    right: 10px;
+  }
+
+  .carousel h2 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .carousel p {
+    font-size: 1rem;
+    padding: 0 1rem;
+  }
+
+  .carousel-mision img,
+  .carousel-vision img {
+    width: 50%;
+    height: auto;
+    margin: 1rem auto;
+    display: block;
+    border-radius: 10px;
+  }
+
+  .carousel-description img {
+    width: 80%;
+    height: auto;
+    margin: 1rem auto;
+    display: block;
+    border-radius: 10px;
+  }
+}
