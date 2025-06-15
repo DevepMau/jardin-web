@@ -89,11 +89,13 @@
 
   .navbar-links.open {
     display: flex;
+    align-items: center;
   }
 
   .hamburger {
     display: block;
     cursor: pointer;
+    margin-right: 20%;
   }
 
   .navbar-links ul {

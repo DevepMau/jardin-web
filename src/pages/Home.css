@@ -88,5 +88,6 @@
   .btn-services button {
     width: 100%;
     max-width: 250px;
+    margin-bottom: 30%;
   }
 }

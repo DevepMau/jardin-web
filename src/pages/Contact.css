@@ -204,6 +204,10 @@
     padding: 1rem;
   }
 
+  .introduction h2 {
+    font-size: 1.3rem;
+  }
+
   .introduction .invite .col1,
   .introduction .invite .col2 {
     flex: unset;
@@ -230,7 +234,7 @@
   }
 
   .contact-form-section h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .contact-data-section .content p {
@@ -239,6 +243,8 @@
 
   .contact-data-section .content button {
     width: 10%;
+    font-size: 1.5rem;
+    padding: 0.2rem 0.5rem;
     img {
       width: 100%;
     }

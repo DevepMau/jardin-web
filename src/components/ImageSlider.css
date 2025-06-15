@@ -47,3 +47,16 @@
 .next {
   right: 10px;
 }
+
+/*Diseño para moviles */
+
+@media (max-width: 768px) {
+  .slider-container {
+    height: 250px; /* más bajo para pantallas pequeñas */
+  }
+
+  .nav-button {
+    font-size: 1.5rem;
+    padding: 0.2rem 0.5rem;
+  }
+}

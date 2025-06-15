@@ -134,7 +134,7 @@
   }
 
   .card-image {
-    height: 250px; /* más corto en móviles */
+    height: 75px; /* más corto en móviles */
   }
 
   .modal-overlay {
